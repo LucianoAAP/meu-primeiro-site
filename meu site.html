@@ -1,0 +1,164 @@
+<html>
+  <head>
+    <title>Luciano</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      #intro {
+        width: 100%;
+        height: auto;
+        background: url(background.gif);
+        background-size: cover;
+        padding-top: 100;
+        padding-bottom: 100;
+      }
+      h1 {
+        color: white;
+        font-family: arial;
+        text-align: center;
+        margin: 0;
+      }
+      h2 {
+        color: white;
+        text-align: center;
+        font-family: arial;
+      }
+      h3 {
+        text-align: center;
+        color: white;
+        font-size: 20;
+        margin: 0;
+        font-family: arial;
+      }
+      h4 {
+        text-align: center;
+        color: white;
+        font-size: 20;
+        margin: 0;
+        font-family: arial;
+      }
+      h5 {
+        text-align: center;
+        margin: 0;
+        font-size: 15;
+        font-family: arial;
+      }
+      #skills {
+        display: flex;
+        width: auto;
+        height: auto;
+      }
+      #frontend {
+        width: 50%;
+        height: auto;
+        background: #151515;
+        padding-top: 20;
+        padding-bottom: 20;
+        justify-content: center;
+      }
+      #backend {
+        width: 50%;
+        height: auto;
+        background: #111111;
+        padding-top: 20;
+        padding-bottom: 20;
+        justify-content: center;
+      }
+      #ft {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+      }
+      #bt {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+      }
+      @media (max-width: 600px) {
+        #ft {
+          flex-direction: column;
+        }
+        #bt {
+          flex-direction: column;
+        }
+      }
+      #contato {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        padding-top: 50;
+        padding-bottom: 50;
+      }
+      p {
+        margin: 0;
+      }
+      #craig {
+        border-radius: 10px;
+      }
+      #wp {
+        padding-bottom: 10px;
+      }
+      #a2 {
+        background: green;
+        text-decoration: none;
+        padding: 10;
+        border-radius: 5px;
+        color: white;
+        font-family: arial;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="intro">
+      <h1>Luciano Almeida</h1>
+      <h2>Desenvolvedor de software wanabe</h2>
+      <center>
+        <img
+          id="craig"
+          src="INFINITYMONKEY03.jpg"
+          alt="ck"
+          width="200"
+          height="112"
+        />
+      </center>
+    </div>
+    <div id="skills">
+      <div id="frontend">
+        <h3>Front-end</h3>
+        <div id="ft">
+          <img src="css.png" width="50" height="50" />
+          <img src="js.png" width="50" height="50" />
+          <img src="react.png" width="50" height="50" />
+        </div>
+      </div>
+      <div id="backend">
+        <h4>Back-end</h4>
+        <div id="bt">
+          <img src="node.png" width="50" height="50" />
+          <img src="sql.png" width="50" height="50" />
+          <img src="rest.png" width="50" height="50" />
+        </div>
+      </div>
+    </div>
+    <div id="contato">
+      <h5>
+        <p>Quer me dar dinheiro?</p>
+        Chama no zap
+      </h5>
+      <center>
+        <p>
+          <a
+            id="a1"
+            href="http://api.whatsapp.com/send?1=pt_BR&phone=5531998156968"
+          >
+            <img id="wp" src="zap.png" alt="wpp" width="150" height="100" />
+          </a>
+          <br />
+          <a id="a2" href="https://wa.me/5531998156968">Mandar um WhatsApp</a>
+        </p>
+      </center>
+    </div>
+  </body>
+</html>
